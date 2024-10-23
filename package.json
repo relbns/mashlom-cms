@@ -1,0 +1,31 @@
+{
+  "name": "mashlom-cms",
+  "version": "1.0.0",
+  "description": "Mashlom CMS",
+  "private": true,
+  "workspaces": [
+    "apps/server",
+    "apps/client"
+  ],
+  "scripts": {
+    "prestart": "npm run build -w apps/client",
+    "start": "cross-env NODE_ENV=production npm run start -w apps/server",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"green,blue\" -p \"[{name}]\" \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm run dev -w apps/server",
+    "dev:client": "npm run dev -w apps/client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "cross-env": "^7.0.3"
+  },
+  "author": "Ariel Benesh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/relbns/mashlom-cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/relbns/mashlom-cms/issues"
+  },
+  "homepage": "https://github.com/relbns/mashlom-cms#readme"
+}

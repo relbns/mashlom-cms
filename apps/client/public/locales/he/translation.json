@@ -1,0 +1,42 @@
+{
+  "categories": {
+    "hospitals": "בתי חולים",
+    "departments": "מחלקות",
+    "tags": "תגיות",
+    "protocols": "פרוטוקולים"
+  },
+  "changePassword": {
+    "title": "שינוי סיסמה",
+    "newPassword": "הזן סיסמה חדשה",
+    "confirmPassword": "אשר סיסמה חדשה"
+  },
+  "passwordErrors": {
+    "tooShort": "סיסמה צריכה להכיל לפחות 6 תווים",
+    "notMatching": "הסיסמאות אינן תואמות",
+    "changeFailed": "שינוי הסיסמה נכשל"
+  },
+  "common": {
+    "cancel": "ביטול",
+    "save": "שמור",
+    "close": "סגור",
+    "error": "שגיאה",
+    "unknown": "לא ידוע"
+  },
+  "protocolSearchBox": {
+    "placeholder": "חיפוש פרוטוקולים..."
+  },
+  "sidebar": {
+    "profile": "פרופיל",
+    "users": "משתמשים",
+    "hospitals": "בתי חולים",
+    "protocols": "פרוטוקולים",
+    "departments": "מחלקות",
+    "logout": "התנתק"
+  },
+  "errors": {
+    "fetchingAutocomplete": "שגיאה בטעינת נתוני השלמה אוטומטית",
+    "unauthorized": "אינך מורשה לבצע פעולה זו. אנא פנה לתמיכה של משלום או למנהלי בית החולים.",
+    "notFound": "המשאב המבוקש לא נמצא. ייתכן שהוא נמחק או שאין לך הרשאות צפייה עליו.",
+    "serverError": "אירעה שגיאה בשרת. אם הבעיה נמשכת, אנא פנה לתמיכה של משלום בכתובת mashlom.me@gmail.com"
+  }
+}

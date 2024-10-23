@@ -1,0 +1,42 @@
+{
+  "categories": {
+    "hospitals": "Hospitals",
+    "departments": "Departments",
+    "tags": "Tags",
+    "protocols": "Protocols"
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "newPassword": "Enter new password",
+    "confirmPassword": "Confirm new password"
+  },
+  "passwordErrors": {
+    "tooShort": "Password must be at least 6 characters long",
+    "notMatching": "Passwords do not match",
+    "changeFailed": "Password change failed"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "error": "Error",
+    "unknown": "Unknown"
+  },
+  "protocolSearchBox": {
+    "placeholder": "Search protocols..."
+  },
+  "sidebar": {
+    "profile": "Profile",
+    "users": "Users",
+    "hospitals": "Hospitals",
+    "protocols": "Protocols",
+    "departments": "Departments",
+    "logout": "Logout"
+  },
+  "errors": {
+    "fetchingAutocomplete": "Error fetching autocomplete data",
+    "unauthorized": "You are not authorized to perform this action. Please contact Mashlom support or hospital administrators.",
+    "notFound": "The requested resource was not found. It may have been deleted or you may not have permission to view it.",
+    "serverError": "A server error occurred. If the problem persists, please contact Mashlom support at mashlom.me@gmail.com"
+  }
+}
