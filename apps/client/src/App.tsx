@@ -22,6 +22,7 @@ function App() {
           count is {count}
         </button>
         <p>
+          Test for Yonatan Katz
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
