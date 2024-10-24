@@ -7,6 +7,7 @@ const { notFoundHandler, errorHandler } = require('./api/middleware/gutterMiddle
 const { handleGracefulShutdown } = require('./utils/gracefulShutdown');
 const { isProd } = require('./utils/helpers');
 const { generalLimiter } = require('../src/utils/rateLimitUtil');
+const connectDB = require('./config/db');
 
 const app = express();
 
@@ -16,6 +17,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
+
+// MongoDB connection
+connectDB();
 
 // API routes
 app.use('/api', require('./api/routes'));

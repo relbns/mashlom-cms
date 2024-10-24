@@ -1,0 +1,25 @@
+@baseUrl = http://localhost:3000/api
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmRiMmRiODBmMWIzMmFlZTBkZmEzNjkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MjU3NDg5MjAsImV4cCI6MTcyNTc0OTgyMH0.S4rXntEljqKZD0qtQmlnYBsyGTZ078xig8XKKm6XolY
+
+@refreshToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmRiMmRiODBmMWIzMmFlZTBkZmEzNjkiLCJpYXQiOjE3MjU3NDg5MjAsImV4cCI6MTcyNjM1MzcyMH0.KZRZmKnhKr2faOIRb6B8afXxu16SHxekWhp5p4lNWV4
+
+
+### Auth API
+
+### Invite a User can use "isResend": true to resend the invitation
+POST {{baseUrl}}/user/invite
+Content-Type: application/json
+
+{
+  "firstName": "Ariel",
+  "lastName": "Benesh",
+  "email": "arielbenesh+mashlom.cms@gmail.com",
+  "role": "admin"
+}
+
+
+### Users API
+
+### Get All Users 
+GET {{baseUrl}}/user
+Authorization: Bearer {{accessToken}}
